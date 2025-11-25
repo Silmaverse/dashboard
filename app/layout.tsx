@@ -37,7 +37,9 @@ export default function RootLayout({
           <LeftSidebar/>
 
           {children}
+          
         </div>
+
       </body>
     </html>
   );

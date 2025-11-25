@@ -14,20 +14,21 @@ export const Navbar = () => {
   return (
     <>
     <section>
-        <div className="container">
+        <div className="">
             <div className="navrow flex justify-between items-center py-6 px-[25px]">
 
 
 
-            <div className="f_col flex gap-[186px] items-center">
+            <div className="f_col flex items-center">
 
-                <div className="flex gap-[47px] items-center">
+                <div className="flex gap-[186px] items-center">
 
                  <div className="logo_image w-[148px] h-[39px] relative">
                    <Image src={logo} alt='logo_error' fill={true}/>
                 
                 </div>
 
+                <div className="flex gap-[47px] items-center">
                 <div className="w-[360px] h-12 rounded-xl  bg-[#F5F5FA] flex justify-between items-center-safe px-[18px] py-3.5">
     
                     <div className="flex gap-2 items-center">
@@ -49,6 +50,8 @@ export const Navbar = () => {
                     <IoIosArrowDown />
 
                 </div>
+                </div>
+
                 </div>
                 
 
