@@ -16,9 +16,9 @@ import cardicon4 from "../../../public/cardicon3.png"
 import vector from "../../../public/Vector.png"
 import man from "../../../public/man.png"
 import star from "../../../public/diamond.png"
-
-
-
+import { IoMoonOutline } from "react-icons/io5";
+import { MdOutlineWbSunny } from "react-icons/md";
+import { LuSquareArrowUpRight } from "react-icons/lu";
 
 
 
@@ -28,7 +28,7 @@ const leftSidebar = () => {
   return (
     <>
 
-    <div className="px-[25px] py-7 bg-[#ffffff] h-screen ">
+    <div className="px-[25px] py-7 bg-[#ffffff] h-screen border-r-2 border-r-[#E8EDF2]">
 
         <div className="border-b border-b-[#E8EDF2]">
 
@@ -178,7 +178,7 @@ const leftSidebar = () => {
             <h2 className='w-full text-[12px] font-popins font-normal text-blackie text-center'>Unlock more information now 
 by Upgrade to PRO</h2>
 
-           <button className='w-[122px] h-[18px] bg-brand rounded-sm text-[12px] font-popins font-semibold text-[#FFFFFF] py-[7px]'>Upgrade Now</button>
+           <button className='w-[122px] h-8 mt-[28px] bg-brand rounded-sm text-[12px] font-popins font-semibold text-[#FFFFFF] py-[7px]'>Upgrade Now</button>
 
 
           </div>
@@ -186,6 +186,22 @@ by Upgrade to PRO</h2>
 
 
 
+        </div>
+
+        <div className="mt-[497px]">
+           <div className="w-[206px] h-[53px] bg-[#E8EDF2] py-4 px-[19px] flex justify-between items-center rounded-xl">
+            <button className='flex gap-3 items-center pr-5 border-r border-r-[#FFFFFF]'>
+              <IoMoonOutline className='text-base text-primary' />
+              <div className="w-12 h-4 rounded-2xl bg-primary relative">
+                 <div className="w-6 h-6 rounded-full bg-brand absolute right-0 -top-3 translate-y-2 "></div>
+              </div>
+              <MdOutlineWbSunny className='text-base text-[#EC8C56]' />
+            </button>
+
+            <LuSquareArrowUpRight className='text-2xl text-secondary' />
+
+
+           </div>
         </div>
     
 
