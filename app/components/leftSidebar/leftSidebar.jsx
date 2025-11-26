@@ -28,7 +28,7 @@ const leftSidebar = () => {
   return (
     <>
 
-    <div className="px-[25px] py-7 bg-[#ffffff] h-screen border-r-2 border-r-[#E8EDF2]">
+    <div className="px-[25px] py-7 bg-[#ffffff] h-full border-r-2 border-r-[#E8EDF2]">
 
         <div className="border-b border-b-[#E8EDF2]">
 
@@ -163,7 +163,7 @@ const leftSidebar = () => {
 
         <div className="mt-[35]">
 
-          <div className="upgrade_now w-[206px] h-[284px] rounded-xl bg-[#E8EDF2] pt-[22px] pl-[31px]">
+          <div className="upgrade_now w-[206px]  rounded-xl bg-[#E8EDF2] pt-[22px] pb-5 pl-[31px]">
            
             <Image src={vector} alt='err' />
 
