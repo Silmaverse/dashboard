@@ -2,6 +2,7 @@ import React from 'react'
 import Text from "../utill/CommonText/CommonText"
 import { BsThreeDotsVertical } from "react-icons/bs";
 import Status from "../Salesperformances/Status"
+import CustomAreaChart from './CustomAreaChart';
 
 const Charts = () => {
   return (
@@ -23,6 +24,8 @@ const Charts = () => {
             <Status title={"Unpaid"} bgcolor={"bg-[#80B7FB]"}/>
             <Status title={"Delivered"} bgcolor={"bg-[#B9A2FB]"}/>
         </div>
+
+        <CustomAreaChart/>
     </div>
     </>
   )

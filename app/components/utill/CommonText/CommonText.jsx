@@ -6,7 +6,8 @@ const CommonText = ({varaiant ='p' ,classname="" ,children }) => {
     {tag:"p" , class:"text-[12px] font-popins font-normal"},
     {tag:"h3" , class:"text-base font-popins font-semibold"},
     {tag:"h4" ,class:"text-base font-popins font-medium "},
-    {tag:"h5" , class:"text-base font-popins font-bold"}
+    {tag:"h5" , class:"text-base font-popins font-bold"},
+    {tag:"h6", class:"text-sm font-popins font-normal"}
   ]
 
 

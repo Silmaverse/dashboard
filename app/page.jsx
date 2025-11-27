@@ -2,6 +2,7 @@ import Image from "next/image";
 import Heading from "./components/heading/Heading"
 import DashbardCard from "./components/utill/Dashboard/DashboardCard"
 import Charts from "./components/Salesperformances/Charts"
+import BestSeller from "../app/components/Salesperformances/BestSellers"
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
        <DashbardCard title={"Daily Revenue"} bgcolor={"bg-[#FB7BB8]"} totalSells={"12.125"} percentage={"23.9"}/>
       </div>
 
-      <div className="flex justify-between items-center mt-6">
+      <div className="flex gap-[18px] items-start mt-6">
         <Charts/>
+        <BestSeller/>
       </div>
       
     </div>

@@ -129,18 +129,18 @@ const leftSidebar = () => {
 
               <Image src={cardicon1} alt='photo_err' fill={true} />
 
-              <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6.5 -top-0.5 -z-1">
+              <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6 -top-0.5 -z-1">
                 <Image src={cardicon2} alt='photo_err' fill={true} />
 
-               <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6.5 -top-0.5 -z-1">
+               <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6 -top-0.5 -z-1">
                 <Image src={cardicon3} alt='photo_err' fill={true} />
 
 
-                <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6.5 -top-0.5 -z-1">
+                <div className="image2 w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA]  absolute -right-6 -top-0.5 -z-1">
                 <Image src={cardicon4} alt='photo_err' fill={true} />
 
 
-                  <div className="w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA] bg-brand absolute -right-6.5 -top-0.5 -z-1 flex justify-center items-center">
+                  <div className="w-9 h-9 rounded-full border-[3.5px] border-[#F5F5FA] bg-brand absolute -right-6 top-0 -z-1 flex justify-center items-center">
                     <GoPlusCircle className='text-base text-black'/>
 
 
