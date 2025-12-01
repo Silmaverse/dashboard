@@ -8,7 +8,7 @@ const SellerCard = ({cardImg ,cardtitle , auttor , price , totalSales }) => {
   return (
     <>
 
-    <div className="flex justify-between items-center mt-5">
+    <div className="flex justify-between items-center ">
         <div className="flex gap-3">
         <div className="cardimage w-10 h-10 rounded-lg relative">
             <Image src={cardImg} alt='error'/>

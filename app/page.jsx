@@ -3,6 +3,10 @@ import Heading from "./components/heading/Heading"
 import DashbardCard from "./components/utill/Dashboard/DashboardCard"
 import Charts from "./components/Salesperformances/Charts"
 import BestSeller from "../app/components/Salesperformances/BestSellers"
+import Purchasecard from "../app/components/Purchase/Purchasecard"
+import Allbars from "../app/components/Bars/Allbars"
+
+
 
 export default function Home() {
   return (
@@ -21,6 +25,9 @@ export default function Home() {
         <Charts/>
         <BestSeller/>
       </div>
+
+      <Purchasecard/>
+      <Allbars/>
       
     </div>
 
