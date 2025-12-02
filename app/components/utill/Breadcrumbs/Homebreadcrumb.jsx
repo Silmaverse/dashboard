@@ -5,7 +5,7 @@ import Text from "../../utill/CommonText/CommonText"
 
 
 
-const Homebreadcrumb = () => {
+const Homebreadcrumb = ({name}) => {
   return (
     <>
     <div className="flex gap-[7px] items-center">
@@ -15,7 +15,7 @@ const Homebreadcrumb = () => {
              <Text varaiant='p' classname='text-secondary'>Home</Text>
         </div>
         <MdChevronRight className='text-[12px]' />
-         <Text varaiant='p' classname='text-brand'>Dashboard</Text>
+         <Text varaiant='p' classname='text-brand'>{name}</Text>
       
     </div>
 

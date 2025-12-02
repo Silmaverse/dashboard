@@ -19,6 +19,7 @@ import star from "../../../public/diamond.png"
 import { IoMoonOutline } from "react-icons/io5";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { LuSquareArrowUpRight } from "react-icons/lu";
+import Link from 'next/link';
 
 
 
@@ -31,18 +32,23 @@ const leftSidebar = () => {
     <div className="px-[25px] py-7 bg-[#ffffff] h-full border-r-2 border-r-[#E8EDF2]">
 
         <div className="border-b border-b-[#E8EDF2]">
-
+          <Link href={"/"}>
             <div className="w-[206px] h-14 bg-brand py-[22px] pl-[21px]  rounded-xl flex gap-[3px]  items-center">
                 <HiOutlinePresentationChartLine className='text-[22px] text-white' />
                 <p className='text-sm font-popins font-semibold text-white'>Dashboard</p>
 
             </div>
+          </Link>
 
+
+            <Link href={"/products"}>
              <div className="w-[206px] h-14 bg-white py-[22px] pl-[21px]  rounded-xl flex gap-[3px]  items-center">
                 <CiShop className='text-[22px] text-secondary' />
                 <p className='text-sm font-popins font-semibold text-secondary'>Products</p>
 
             </div>
+            </Link>
+
 
              <div className="w-[206px] h-14 bg-white py-[22px] pl-[21px]  rounded-xl flex gap-[3px]  items-center">
                 <AiOutlineProduct className='text-[22px] text-secondary' />

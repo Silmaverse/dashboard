@@ -5,16 +5,17 @@ import Charts from "./components/Salesperformances/Charts"
 import BestSeller from "../app/components/Salesperformances/BestSellers"
 import Purchasecard from "../app/components/Purchase/Purchasecard"
 import Allbars from "../app/components/Bars/Allbars"
-
+import Footer from "../app/components/Footer/Footer"
+import  Time from "../app/components/heading/Time"
 
 
 export default function Home() {
   return (
     <>
     <div className="w-full h-full bg-[#F5F5FA] px-[25px] py-9 ">
-      <Heading/>
+      <Heading title={"Dashboard"} RightSide={<Time/>} name={"Dashboard"}/>
 
-      <div className="mt-[38px] flex gap-[24.8px] items-center">
+      <div className="mt-[38px] flex gap-[24.8px] items-center ">
        <DashbardCard title={"Total sells"} bgcolor={"bg-[#50D1B2]"} totalSells={"126.500"} percentage={"34.7"}/>
        <DashbardCard title={"Orders value"} bgcolor={"bg-[#2775FF]"} totalSells={"136.800"} percentage={"22.8"}/>
        <DashbardCard title={"Daily orders"} bgcolor={"bg-[#7747CA]"} totalSells={"25.200"} percentage={"17.8"}/>
@@ -28,6 +29,7 @@ export default function Home() {
 
       <Purchasecard/>
       <Allbars/>
+      <Footer/>
       
     </div>
 
