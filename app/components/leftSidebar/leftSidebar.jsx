@@ -180,11 +180,11 @@ const leftSidebar = () => {
             </div>
 
 
-          <div className="w-[144px]">
+          <div className="w-36">
             <h2 className='w-full text-[12px] font-popins font-normal text-blackie text-center'>Unlock more information now 
 by Upgrade to PRO</h2>
 
-           <button className='w-[122px] h-8 mt-[28px] bg-brand rounded-sm text-[12px] font-popins font-semibold text-[#FFFFFF] py-[7px]'>Upgrade Now</button>
+           <button className='w-[122px] h-8 mt-7 bg-brand rounded-sm text-[12px] font-popins font-semibold text-[#FFFFFF] py-[7px]'>Upgrade Now</button>
 
 
           </div>
